@@ -19,3 +19,17 @@ factorial = Factorial(n)
 
 print(f"factorial of {n} = {factorial}")
     
+# Question 2 
+
+import math as m 
+
+number = int(input("Enter a number: "))
+
+square_root = m.sqrt(number)
+print("square root :", square_root)
+
+logarithm = m.log(number)
+print("logarithm :", logarithm)
+
+sine = m.sin(number)
+print("sine:",sine)
